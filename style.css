@@ -124,22 +124,22 @@ background: #FF5400;
 }
 /* end popular section */
 /* start destination */
-.destination{
+.destination,.why-choose-us{
   margin-bottom: 100px;
 }
-.destination-info{
+.destination-info,.why-choose-us-info{
   max-width: 643px;
   margin: 0 auto;
   text-align: center;
 }
-h3.destination-title-c{
+h3.destination-title-c, h3.why-choose-title-c{
   color: #131318;
   font-family: "Mulish";
   font-size: 2rem;
   font-weight: 800;
   padding-bottom: 24px;
 }
-p.destination-description{
+p.destination-description, p.why-choose-description{
   color: rgba(19, 19, 24, 0.70);
 
 
@@ -204,6 +204,58 @@ h3.destination-title {
 
 
 /* end destination */
+/* why choose me */
+.choose-description-column{
+  max-width: 573px;
+  height: 284px;
+  padding: 32px;
+ 
+
+  font-family: "Mulish";
+  text-align: left;
+      
+}
+.choose-description-row{
+  display: flex;
+  gap: 30px;
+}
+.hotel-granty{
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+border: 1px solid #fff;
+}
+.col-map{
+  border: 1px solid #fff;
+  border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+img.choose-img{}
+.choose-title{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.choose-desc{
+  color: #5A5A5D;
+
+
+font-size: 1rem;
+
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.hotel-granty.price{
+  max-width: 573px;
+  height: 284px;
+  padding: 32px;
+  margin: 50px auto;
+ 
+
+}
 /* footer */
 footer{
   height: 500px;
