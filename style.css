@@ -14,7 +14,7 @@
 .main-contain{
   max-width: 1170px;
   margin: 0 auto;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 .title{
   display: flex;
@@ -60,6 +60,150 @@ span.title-color{
 .nav>ul>li>a:hover{
   color: #FF5400;
 }
+/* popular Section */
+.popular-tour{
+  height: 550px;
+  display:flex;
+  justify-content: space-between;
+  margin: 74px auto;
+  gap: 30px;
+
+}
+.popular-description{
+  max-width: 600px;
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 1rem;
+
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+
+}
+.poular-description-title{
+      color: #131318;
+
+   
+    font-family: "Mulish";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 24px;
+    
+}
+.top-popular-description{
+  margin-bottom: 24px;
+}
+ul.ul-popular {
+  margin-left: 25px;
+  width: 548px;
+}
+li.ul-midel{
+ 
+  margin: 24px 0px;
+}
+.bottom-popular-description{
+  margin: 24px 0px;
+}
+
+.popular-image{
+  max-width: 540px;
+  object-fit: contain;
+}
+button.btn.btn-primary{
+  color: #FFF;
+
+ 
+  font-family: "Mulish";
+  font-size: 20px;
+  border: 0px;
+  font-weight: 800;
+  padding: 13px 35px;
+  border-radius: 8px;
+background: #FF5400;
+  
+
+}
+/* end popular section */
+/* start destination */
+.destination{
+  margin-bottom: 100px;
+}
+.destination-info{
+  max-width: 643px;
+  margin: 0 auto;
+  text-align: center;
+}
+h3.destination-title-c{
+  color: #131318;
+  font-family: "Mulish";
+  font-size: 2rem;
+  font-weight: 800;
+  padding-bottom: 24px;
+}
+p.destination-description{
+  color: rgba(19, 19, 24, 0.70);
+
+
+font-family: 'Mulish';
+font-size: 1rem;
+
+font-weight: 400;
+line-height: 20px; /* 162.5% */
+margin-bottom: 48px;
+}
+.destination-infoma{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.destination-img-title{
+  
+  border: 1px solid red;
+  position: relative;
+  display: inline-block;
+  
+}
+
+
+
+
+.destination-img-title img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h3.destination-title {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: #FFF;
+
+  font-family: "Mulish";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+ 
+ 
+   
+  text-align: center;
+
+
+}
+.destinaation-gap{
+  margin-top:24px;
+  margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+/* end destination */
 /* footer */
 footer{
   height: 500px;
