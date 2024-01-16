@@ -1,35 +1,28 @@
-.destination-img-title{
+.banner-img-des{
   
   border: 1px solid red;
   position: relative;
   display: inline-block;
   
 }
-
-
-
-
-.destination-img-title img {
+.banner-img-des img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-h3.destination-title {
+div.banner-desc {
   position: absolute;
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
-  color: #FFF;
-
-  font-family: "Mulish";
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 800;
- 
- 
-   
+  border:1px solid red;
   text-align: center;
-
-
 }
+
+<div class="banner">
+        <div class="banner-img-des">
+          <img src="Images/Rectangle8.png" alt="" class="des-pic">
+          <div class="banner-desc">Travel.com</div>
+      </div>
+</div>
