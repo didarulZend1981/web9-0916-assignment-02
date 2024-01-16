@@ -256,6 +256,128 @@ line-height: 26px; /* 162.5% */
  
 
 }
+/* news later offer */
+.news-later-offer{
+  height: 422px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  gap: 24px;
+}
+.col-news-later{
+  max-width: 474px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+  
+
+}
+.news-title{
+  color: #131318;
+
+  
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 16px;
+  
+}
+.news-descrip{
+  color: #5A5A5D;
+
+  
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 16px;
+}
+.input-form{
+  display: flex;
+  flex-direction: column;
+}
+input.input-name,input.input-email {
+  width: 99%;
+}
+button.btn.primary-button{
+  width: 100%;
+  height: 52px;
+  color: #FFF;
+  border-radius: 8px;
+  background: #FF5400;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  
+  font-weight: 800;
+  line-height: normal;
+  border: 0px;
+  margin-top:16px
+}
+.news-divider {
+  max-width: 100%;
+  width: 99%;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.01);
+  margin-bottom: 15px;
+}
+.input-form input[type="text"],.input-form input[type="email"]{
+  width: 95%;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin-top: 16px;
+  border: 0px;
+  padding-left: 20px;
+}
+.col-offer-des-sub{
+  
+  border: 1px solid red;
+  position: relative;
+  display: inline-block;
+  height: 422px;
+  
+}
+
+
+
+
+.col-offer-des-sub img {
+  display: block;
+  width: 100%;
+  height: 422px;
+}
+
+button.btn.primary-button.offer {
+  
+    position: absolute;
+    top: 56%;
+    left: 51%;
+    transform: rotate(-19.628deg);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 324px;
+    height: 120px;
+}
+.save-btn{
+    color: #FFF;
+
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+
+/* end News later offer */
 /* footer */
 footer{
   height: 500px;
@@ -280,15 +402,15 @@ footer{
     margin: 0 auto;
 }
 .footer-description{
-  color: #5A5A5D;
+      color: #5A5A5D;
 
-text-align: center;
+    text-align: center;
 
-font-size: 1rem;
-margin-top: 15px;
-margin-bottom: 33px;
-font-weight: 400;
-line-height: 20px; /* 162.5% */
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 33px;
+    font-weight: 400;
+    line-height: 20px; /* 162.5% */
 }
 .divider{
   margin: 50px auto;

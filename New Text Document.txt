@@ -1,0 +1,35 @@
+.destination-img-title{
+  
+  border: 1px solid red;
+  position: relative;
+  display: inline-block;
+  
+}
+
+
+
+
+.destination-img-title img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h3.destination-title {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: #FFF;
+
+  font-family: "Mulish";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+ 
+ 
+   
+  text-align: center;
+
+
+}
