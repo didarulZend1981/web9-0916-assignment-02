@@ -14,7 +14,7 @@
 .main-contain{
   max-width: 1170px;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .title{
   display: flex;
@@ -63,7 +63,7 @@ span.title-color{
 /* banner start */
 .banner-img-des{
   
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
   display: inline-block;
   
@@ -79,7 +79,7 @@ div.banner-desc {
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
-  border:1px solid red;
+  /* border:1px solid red; */
   text-align: center;
   width: 768px;
   height: 300px;
@@ -245,7 +245,7 @@ margin-bottom: 48px;
 
 .destination-img-title{
   
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
   display: inline-block;
   
@@ -357,7 +357,7 @@ line-height: 26px; /* 162.5% */
   display: flex;
   flex-direction: column;
   border-radius: 16px;
-  border: 1px solid #FF5400;
+  /* border: 1px solid #FF5400; */
   
 
 }
@@ -421,7 +421,7 @@ button.btn.primary-button{
 }
 .col-offer-des-sub{
   
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
   display: inline-block;
   height: 422px;
